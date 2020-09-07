@@ -80,6 +80,7 @@ alias gshow='git show'
 alias gi='vim .gitignore'
 alias gcm='git ci -m'
 alias gcim='git ci -m'
+alias gcam='git commit -am'
 alias gci='git ci'
 alias gco='git co'
 alias gcp='git cp'
@@ -112,6 +113,7 @@ alias gb='git b'
 alias gdc='git diff --cached -w'
 alias gds='git diff --staged -w'
 alias gpub='grb publish'
+alias gpu='git push -u'
 alias gtr='grb track'
 alias gpl='git pull'
 alias gplr='git pull --rebase'
@@ -211,3 +213,6 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
+
+# Tmuxinator
+alias mux="tmuxinator"
